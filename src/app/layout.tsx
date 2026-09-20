@@ -5,10 +5,19 @@ import ClientLayout from "@/components/ClientLayout";
 export const metadata: Metadata = {
   title: "Oussama Yinssi — Software Engineer",
   description: "Portfolio of Oussama Yinssi. Distributed systems, web engineering, and software projects.",
+  manifest: "/site.webmanifest",
   icons: {
-    icon: "/OY.png",
-    shortcut: "/OY.png",
-    apple: "/OY.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
