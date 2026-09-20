@@ -12,15 +12,9 @@ import { interestsData, getLocalizedCvRows } from "@/data/cv";
 type Lang = "en" | "fr";
 type Page = "home" | "cv" | "contact" | "works" | "project";
 
-type Event = {
-  title: string;
-  venue?: string;
-  location?: string;
-  category?: string;
-  result?: string;
-  resultFr?: string;
-  github?: string;
-  demo?: string;
+type Event = WorkEvent & {
+  venueFr?: string;
+  locationFr?: string;
 };
 
 type WorkEntry = { year: string; event: Event };
