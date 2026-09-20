@@ -1,0 +1,10 @@
+{
+  "description": "Enables users to create precise designs by replicating exact layers, fonts, and colors for accurate visual consistency and branding.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
