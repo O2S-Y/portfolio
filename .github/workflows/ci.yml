@@ -36,6 +36,3 @@ jobs:
         run: pnpm run build
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY || 'dummy_ci_key' }}
-
-      - name: Build Vite SPA
-        run: pnpm run build:vite
