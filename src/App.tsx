@@ -917,17 +917,6 @@ function ProjectPage({
 
   return (
     <main className="mx-auto flex max-w-[1440px] flex-col gap-20 px-6 pb-12 pt-36 sm:gap-24 sm:px-[55px] sm:pt-[240px]">
-      {/* Top Back to Projects Link */}
-      <Reveal>
-        <button
-          type="button"
-          onClick={onBack}
-          className="group inline-flex items-center gap-2 text-[14px] uppercase tracking-[0.08em] text-muted transition-colors hover:text-ink -mb-10 sm:-mb-14 cursor-pointer"
-        >
-          <span className="transition-transform duration-200 group-hover:-translate-x-1">←</span>
-          <span>{t[lang].backToProjects}</span>
-        </button>
-      </Reveal>
 
       {/* Header Block */}
       <section className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_540px] lg:items-start">

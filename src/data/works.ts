@@ -239,6 +239,173 @@ export const worksData: YearRow[] = [
         },
       },
       {
+        title: "Scienfisto",
+        category: "Hackathon",
+        result: "A 24-hour hackathon build turning a scientific hypothesis into a fully budgeted, ready-to-run lab experiment plan.",
+        resultFr: "Projet de hackathon de 24h transformant une hypothèse scientifique en un plan d'expérience de laboratoire chiffré et prêt à l'exécution.",
+        github: "https://github.com/NabilDa/scienfisto",
+        demo: "https://scienfisto.vercel.app",
+        thumbnail: {
+          light: "/images/projects/project-02-mini-light.png",
+          dark: "/images/projects/project-02-mini-dark.png",
+        },
+        hero: {
+          light: "/images/projects/project-02-hero-light.png",
+          dark: "/images/projects/project-02-hero-dark.png",
+        },
+        details: {
+          metadata: {
+            period: {
+              en: "~April 2026 (24-hour sprint)",
+              fr: "~Avril 2026 (sprint de 24h)",
+            },
+            role: {
+              en: "UI/UX & Architecture",
+              fr: "UI/UX & Architecture",
+            },
+            collaboration: {
+              en: "Team of 3 (with Othmane Zaitoune and Nabil — credited as contributor on the team's repository)",
+              fr: "Équipe de 3 (avec Othmane Zaitoune et Nabil — crédité comme contributeur sur le dépôt de l'équipe)",
+            },
+            affiliation: {
+              en: "5th Global AI Hackathon — Hack-Nation, in collaboration with MIT Clubs of Northern California and Germany. 115+ countries, 600+ universities, 13 global hubs. Built for the \"AI Scientist OS\" challenge, sponsored by Fulcrum.",
+              fr: "5e Global AI Hackathon — Hack-Nation, en collaboration avec les clubs MIT de Californie du Nord et d'Allemagne. 115+ pays, 600+ universités, 13 hubs mondiaux. Conçu pour le défi \"AI Scientist OS\", sponsorisé par Fulcrum.",
+            },
+          },
+          context: {
+            structure: {
+              en: "Global hackathon, team of 3, built in under 24 hours.",
+              fr: "Hackathon mondial, équipe de 3, développé en moins de 24 heures.",
+            },
+            objective: {
+              en: "Compress weeks of manual scientific planning into an AI-generated, fully grounded experiment plan — protocol, budget, timeline, and validation criteria — from a plain-English hypothesis.",
+              fr: "Compresser des semaines de planification scientifique manuelle en un plan d'expérience généré par IA et entièrement vérifié — protocole, budget, calendrier et critères de validation — à partir d'une hypothèse formulée en langage clair.",
+            },
+            role: {
+              en: "Focused on UI/UX design and system architecture — designing the user flow (hypothesis input → literature check → generated plan → feedback loop) and the overall application structure, while teammates handled the AI/LLM orchestration logic.",
+              fr: "Focalisé sur le design UI/UX et l'architecture système — conception du flux utilisateur (saisie d'hypothèse → vérification bibliographique → plan généré → boucle de retour) et de la structure globale de l'application, tandis que les coéquipiers géraient la logique d'orchestration IA/LLM.",
+            },
+          },
+          features: [
+            {
+              number: "01",
+              title: {
+                en: "Literature Novelty Check",
+                fr: "Vérification Bibliographique de Nouveauté",
+              },
+              description: {
+                en: "Literature novelty check grounded in real search results.",
+                fr: "Vérification de la nouveauté de la littérature scientifique ancrée dans des résultats de recherche réels.",
+              },
+            },
+            {
+              number: "02",
+              title: {
+                en: "Step-by-Step Experimental Protocol Generation",
+                fr: "Génération de Protocoles Expérimentaux par Étapes",
+              },
+              description: {
+                en: "Step-by-step experimental protocol generation.",
+                fr: "Génération étape par étape de protocoles expérimentaux détaillés.",
+              },
+            },
+            {
+              number: "03",
+              title: {
+                en: "Itemized Budget with Real Catalog Numbers",
+                fr: "Budget Détaillé avec Références Catalogues",
+              },
+              description: {
+                en: "Itemized budget with real catalog numbers and pricing.",
+                fr: "Budget détaillé avec numéros de catalogue et prix réels.",
+              },
+            },
+            {
+              number: "04",
+              title: {
+                en: "Phased Project Timeline",
+                fr: "Calendrier de Projet par Phases",
+              },
+              description: {
+                en: "Phased project timeline with dependencies.",
+                fr: "Calendrier de projet structuré en phases avec dépendances des étapes.",
+              },
+            },
+            {
+              number: "05",
+              title: {
+                en: "Validation Criteria & Failure-Mode Analysis",
+                fr: "Critères de Validation & Analyse des Défaillances",
+              },
+              description: {
+                en: "Validation criteria and failure-mode analysis.",
+                fr: "Critères de validation scientifique et analyse des modes de défaillance.",
+              },
+            },
+            {
+              number: "06",
+              title: {
+                en: "Adaptive Feedback Loop",
+                fr: "Boucle de Rétroaction Continue",
+              },
+              description: {
+                en: "Feedback loop that improves future plan generations.",
+                fr: "Boucle de rétroaction améliorant la précision des futures générations de plans.",
+              },
+            },
+          ],
+          technologies: [
+            {
+              category: { en: "Frontend & Interface", fr: "Frontend & Interface" },
+              items: "Next.js 16, React 19, Tailwind CSS v4, TypeScript",
+            },
+            {
+              category: { en: "AI & Search Grounding", fr: "IA & Recherche Documentaire" },
+              items: "Google Gemini, Tavily",
+            },
+            {
+              category: { en: "Storage & Platform", fr: "Stockage & Déploiement" },
+              items: "Vercel KV",
+            },
+          ],
+          learnings: [
+            {
+              number: "01",
+              title: {
+                en: "Complex Multi-Step UI Under Time Pressure",
+                fr: "Interface Multi-Étapes sous Pression Temporelle",
+              },
+              description: {
+                en: "Designing a clear, multi-step UI for a complex AI-generated output under extreme time pressure.",
+                fr: "Concevoir une interface utilisateur claire et multi-étapes pour des sorties IA complexes sous une forte contrainte de temps.",
+              },
+            },
+            {
+              number: "02",
+              title: {
+                en: "Multi-Stage AI Pipeline Architecture",
+                fr: "Architecture de Pipelines IA Multi-Phases",
+              },
+              description: {
+                en: "Structuring application architecture to support a multi-stage AI pipeline (grounding, generation, feedback loop).",
+                fr: "Structurer l'architecture applicative pour supporter un pipeline IA multi-étapes (ancrage, génération, boucle de retour).",
+              },
+            },
+            {
+              number: "03",
+              title: {
+                en: "Rapid 24-Hour Team Collaboration",
+                fr: "Collaboration Rapide d'Équipe en 24 Heures",
+              },
+              description: {
+                en: "Collaborating effectively in a fast-paced, high-stakes team environment against a hard 24-hour deadline.",
+                fr: "Collaborer efficacement dans un environnement d'équipe rapide et exigeant face à une date butoir stricte de 24 heures.",
+              },
+            },
+          ],
+        },
+      },
+      {
         title: "SGCD",
         category: "University Project",
         result: "Team-built clinic management system with role-based access and full UML modeling.",
@@ -553,11 +720,6 @@ export const worksData: YearRow[] = [
           ],
         },
       },
-    ],
-  },
-  {
-    year: "2026",
-    events: [
       {
         title: "o2s",
         category: "Personal Project",
@@ -715,173 +877,6 @@ export const worksData: YearRow[] = [
               description: {
                 en: "Working with Go for a lightweight, fast command-line application.",
                 fr: "Travailler avec Go pour concevoir une application en ligne de commande légère et rapide.",
-              },
-            },
-          ],
-        },
-      },
-      {
-        title: "Scienfisto",
-        category: "Hackathon",
-        result: "A 24-hour hackathon build turning a scientific hypothesis into a fully budgeted, ready-to-run lab experiment plan.",
-        resultFr: "Projet de hackathon de 24h transformant une hypothèse scientifique en un plan d'expérience de laboratoire chiffré et prêt à l'exécution.",
-        github: "https://github.com/NabilDa/scienfisto",
-        demo: "https://scienfisto.vercel.app",
-        thumbnail: {
-          light: "/images/projects/project-02-mini-light.png",
-          dark: "/images/projects/project-02-mini-dark.png",
-        },
-        hero: {
-          light: "/images/projects/project-02-hero-light.png",
-          dark: "/images/projects/project-02-hero-dark.png",
-        },
-        details: {
-          metadata: {
-            period: {
-              en: "~April 2026 (24-hour sprint)",
-              fr: "~Avril 2026 (sprint de 24h)",
-            },
-            role: {
-              en: "UI/UX & Architecture",
-              fr: "UI/UX & Architecture",
-            },
-            collaboration: {
-              en: "Team of 3 (with Othmane Zaitoune and Nabil — credited as contributor on the team's repository)",
-              fr: "Équipe de 3 (avec Othmane Zaitoune et Nabil — crédité comme contributeur sur le dépôt de l'équipe)",
-            },
-            affiliation: {
-              en: "5th Global AI Hackathon — Hack-Nation, in collaboration with MIT Clubs of Northern California and Germany. 115+ countries, 600+ universities, 13 global hubs. Built for the \"AI Scientist OS\" challenge, sponsored by Fulcrum.",
-              fr: "5e Global AI Hackathon — Hack-Nation, en collaboration avec les clubs MIT de Californie du Nord et d'Allemagne. 115+ pays, 600+ universités, 13 hubs mondiaux. Conçu pour le défi \"AI Scientist OS\", sponsorisé par Fulcrum.",
-            },
-          },
-          context: {
-            structure: {
-              en: "Global hackathon, team of 3, built in under 24 hours.",
-              fr: "Hackathon mondial, équipe de 3, développé en moins de 24 heures.",
-            },
-            objective: {
-              en: "Compress weeks of manual scientific planning into an AI-generated, fully grounded experiment plan — protocol, budget, timeline, and validation criteria — from a plain-English hypothesis.",
-              fr: "Compresser des semaines de planification scientifique manuelle en un plan d'expérience généré par IA et entièrement vérifié — protocole, budget, calendrier et critères de validation — à partir d'une hypothèse formulée en langage clair.",
-            },
-            role: {
-              en: "Focused on UI/UX design and system architecture — designing the user flow (hypothesis input → literature check → generated plan → feedback loop) and the overall application structure, while teammates handled the AI/LLM orchestration logic.",
-              fr: "Focalisé sur le design UI/UX et l'architecture système — conception du flux utilisateur (saisie d'hypothèse → vérification bibliographique → plan généré → boucle de retour) et de la structure globale de l'application, tandis que les coéquipiers géraient la logique d'orchestration IA/LLM.",
-            },
-          },
-          features: [
-            {
-              number: "01",
-              title: {
-                en: "Literature Novelty Check",
-                fr: "Vérification Bibliographique de Nouveauté",
-              },
-              description: {
-                en: "Literature novelty check grounded in real search results.",
-                fr: "Vérification de la nouveauté de la littérature scientifique ancrée dans des résultats de recherche réels.",
-              },
-            },
-            {
-              number: "02",
-              title: {
-                en: "Step-by-Step Experimental Protocol Generation",
-                fr: "Génération de Protocoles Expérimentaux par Étapes",
-              },
-              description: {
-                en: "Step-by-step experimental protocol generation.",
-                fr: "Génération étape par étape de protocoles expérimentaux détaillés.",
-              },
-            },
-            {
-              number: "03",
-              title: {
-                en: "Itemized Budget with Real Catalog Numbers",
-                fr: "Budget Détaillé avec Références Catalogues",
-              },
-              description: {
-                en: "Itemized budget with real catalog numbers and pricing.",
-                fr: "Budget détaillé avec numéros de catalogue et prix réels.",
-              },
-            },
-            {
-              number: "04",
-              title: {
-                en: "Phased Project Timeline",
-                fr: "Calendrier de Projet par Phases",
-              },
-              description: {
-                en: "Phased project timeline with dependencies.",
-                fr: "Calendrier de projet structuré en phases avec dépendances des étapes.",
-              },
-            },
-            {
-              number: "05",
-              title: {
-                en: "Validation Criteria & Failure-Mode Analysis",
-                fr: "Critères de Validation & Analyse des Défaillances",
-              },
-              description: {
-                en: "Validation criteria and failure-mode analysis.",
-                fr: "Critères de validation scientifique et analyse des modes de défaillance.",
-              },
-            },
-            {
-              number: "06",
-              title: {
-                en: "Adaptive Feedback Loop",
-                fr: "Boucle de Rétroaction Continue",
-              },
-              description: {
-                en: "Feedback loop that improves future plan generations.",
-                fr: "Boucle de rétroaction améliorant la précision des futures générations de plans.",
-              },
-            },
-          ],
-          technologies: [
-            {
-              category: { en: "Frontend & Interface", fr: "Frontend & Interface" },
-              items: "Next.js 16, React 19, Tailwind CSS v4, TypeScript",
-            },
-            {
-              category: { en: "AI & Search Grounding", fr: "IA & Recherche Documentaire" },
-              items: "Google Gemini, Tavily",
-            },
-            {
-              category: { en: "Storage & Platform", fr: "Stockage & Déploiement" },
-              items: "Vercel KV",
-            },
-          ],
-          learnings: [
-            {
-              number: "01",
-              title: {
-                en: "Complex Multi-Step UI Under Time Pressure",
-                fr: "Interface Multi-Étapes sous Pression Temporelle",
-              },
-              description: {
-                en: "Designing a clear, multi-step UI for a complex AI-generated output under extreme time pressure.",
-                fr: "Concevoir une interface utilisateur claire et multi-étapes pour des sorties IA complexes sous une forte contrainte de temps.",
-              },
-            },
-            {
-              number: "02",
-              title: {
-                en: "Multi-Stage AI Pipeline Architecture",
-                fr: "Architecture de Pipelines IA Multi-Phases",
-              },
-              description: {
-                en: "Structuring application architecture to support a multi-stage AI pipeline (grounding, generation, feedback loop).",
-                fr: "Structurer l'architecture applicative pour supporter un pipeline IA multi-étapes (ancrage, génération, boucle de retour).",
-              },
-            },
-            {
-              number: "03",
-              title: {
-                en: "Rapid 24-Hour Team Collaboration",
-                fr: "Collaboration Rapide d'Équipe en 24 Heures",
-              },
-              description: {
-                en: "Collaborating effectively in a fast-paced, high-stakes team environment against a hard 24-hour deadline.",
-                fr: "Collaborer efficacement dans un environnement d'équipe rapide et exigeant face à une date butoir stricte de 24 heures.",
               },
             },
           ],
